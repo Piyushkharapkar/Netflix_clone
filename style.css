@@ -1,0 +1,162 @@
+@import url('https://fonts.googleapis.com/css2?family=Martel+Sans:wght@600&family=Poppins:wght@300;400;700&display=swap');
+
+* {
+    padding: 0;
+    margin: 0;
+    font-family: 'Poppins', sans-serif;
+}
+
+body {
+    background-color: black;
+}
+
+.main {
+    background-image: url("images/bg.jpg");
+    background-position: center center;
+    background-size: max(1200px, 100vw);
+    background-repeat: no-repeat;
+    height: 80vh;
+    position: relative;
+}
+
+.main .box {
+    height: 80vh;
+    width: 100%;
+    opacity: 0.69;
+    position: absolute;
+    top: 0;
+    background-color: black;
+}
+
+nav {
+    max-width: 60vw;
+    justify-content: space-between;
+    margin: auto;
+    display: flex;
+    align-items: center;
+    height: 100px;
+}
+
+nav img {
+    color: red;
+    width: 130px;
+    position: relative;
+    z-index: 10;
+}
+
+nav button {
+    position: relative;
+    z-index: 10;
+}
+nav select {
+    position: relative;
+    z-index: 10;
+}
+.hero {
+    font-family: 'Martel Sans', sans-serif;
+    height: calc(100% - 100px);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    color: white;
+    position: relative;
+    gap: 23px;
+    padding: 0 30px;
+}
+
+.hero> :nth-child(1) {
+    font-family: 'Poppins', sans-serif;
+    font-weight: bolder;
+    font-size: 48px;
+    text-align: center;
+}
+
+.hero> :nth-child(2) {
+    font-weight: 150;
+    font-size: 20px;
+    text-align: center;
+}
+
+.hero> :nth-child(3) {
+    font-weight: 150;
+    font-size: 20px;
+    text-align: center;
+}
+
+.line{
+    height: 7px;
+    background-color: grey;
+    opacity: 0.40;
+}
+
+.btn{
+    padding: 5px 15px;
+    font-weight: 400;
+    background:none;
+    border-radius: 4px;
+    color: white;
+    border: 1px solid rgba(255, 255, 255, 0.5);
+    
+}
+
+.red-sm{
+    background-color: red;
+    color: white;
+    border-radius: 4px;
+}
+
+.main input{
+    padding: 6px 12px 7px 12px;
+    font-size: 17px;
+    font-weight: 500;
+    border-radius: 4px;
+    background: none;
+    border: 1px solid rgba(255, 255, 255, 0.5);
+    color: white;
+}
+
+.hero-btn{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 16px;
+}
+
+.red-btn{
+    background-color: red;
+color: white;
+padding: 3px 20px;
+    font-size: 18px;
+    border-radius: 4px;
+}
+
+.first{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    max-width: 70vw;
+    margin: auto;
+    justify-content: center;
+    align-items: center;
+    color: white;
+}
+
+.sec-img{
+    position: relative;
+
+}
+
+.secImg img {
+    width: 555px;
+    position: relative;
+    z-index: 10;
+}
+
+.sec-img video {
+    position: absolute;
+    top: 73px;
+    right: 68px;
+    width: 320px;
+}
+
